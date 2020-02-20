@@ -6,6 +6,10 @@ Code files for the "arduino" board and the prototype profile for the motor contr
 
 The "arduino" (Trinket M0) is programmed in CircuitPython, so included in this directory is the main.py file only. The user of this code will also need to supply the NeoPixel, time, DigitalIO, and math libraries.
 
+Adafruit Trinket M0 References: https://learn.adafruit.com/adafruit-trinket-m0-circuitpython-arduino/circuitpython
+
+Adafruit NeoPixel CircuitPython references: https://learn.adafruit.com/circuitpython-essentials/circuitpython-neopixel
+
 ## Motor Controller
 
 The motor controller can be configured via the Pololu Motor Control App: https://www.pololu.com/product/1363/resources
