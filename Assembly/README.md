@@ -78,3 +78,15 @@ Note: Different motor can be used, though 21-MotorMount screw attachment points 
 - Locate Pololu Gearmotor. 
 - Assemble 21-MotorMount to top of Pololu Gearmotor using 6x M3 x 6mm long flathead screws. 
 - Assemble Ball-Bearing to Motor Assembly.
+
+## 012. Gear Ring Assembly
+- Press-fit 24-Ring1 onto the Motor Assembly Ball Bearing. If 24-Ring1 does not fit tightly, wrap tape around the bearing until a tight fit is present.
+- Test fit 22-GearRing into the slots in 24-Ring1 to ensure tight fit. 
+- Glue 22-GearRing onto 24-Ring1, taking extra care NOT to get glue onto the Ball Bearing.
+- If the fit between 22-GearRing and 24-Ring1 is loose, use a bead of hot-glue on the outside of the joint to avoid allowing glue into the Ball Bearing.
+
+## 013. Gear Assembly
+- Press-fit 20-Gear onto the D-shaped Motor shaft, taking care to align the D-shaped hole in 20-Gear with the D-shaped shaft. If the 20-Gear does not fit well, sand or file the hole until a good press-fit is achieved. No glue should be necessary, but can be added if a loose fit is present. Avoid getting glue into the Motor.
+- Assemble 3x M3 x 3.8mm long heat-set inserts into 32-A as shown in 013 using a heated soldering iron to press the inserts until they are flush with the surface of the part.
+- Press-fit 32-A onto the protrusions of 22-GearRing on the Motor Assembly. Glue should not be needed here even in the case of a loose fit.
+- Ensure 24-Ring1 rotates smoothly. If movement is not smooth, check for debris or print errors in the 20-Gear and 22-GearRing interface, file down or re-print if needed.
