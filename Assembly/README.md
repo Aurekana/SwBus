@@ -60,3 +60,21 @@ Note: 19-StockBack is also available in the STL folder as 19a-StockBack and 19b-
 ## 009. Front Support Arm Installation
 - Cut two lengths of aluminum 1/2" tube to fit between 01-Front and 02-Front, to act as supports for the 2x Nylon Sleeve Bearings as shown in 009. Assemble the Sleeve Bearings on the aluminum tube, assembling 01-Front to 02-Front.
 - Assemble the 01-Front/02-Front assembly to the Overall Assembly.
+Note: Nylon Sleeve Bearings designed to rotate freely to support rotating barrel assembly above. In prototype, bearings were accidentally glued into place, so were instead used as a low friction bearing surface.
+
+## 010. Slip Ring Assembly
+Note: Alternative slip ring can be used at your own risk.
+- Acquire and assemble PCB as described in PCB folder.
+- Acquire slip ring with 12 wires, each rated at 2A. 
+- Locate +5V, GND, and Signal D_in connection points on PCB.
+- Separate out, trim to length, and solder to the PCB 5x wires to the +5V connection point.
+- Separate out, trim to length, and solder to the PCB 5x wires to the GND connection point.
+- Separate out, trim to length, and solder to the PCB 2x wires to the D_in/Signal connection point.
+- Add spacer pad of scrap foam between the Slip Ring flange and PCB to allow even contact despite components on the underside of the PCB. If gluing the PCB to the flange at this step, make sure holes are ligned up as best as possible for later screw mounting.
+
+## 011. Slip Ring Wire Routing
+- Locate 21-MotorMount.
+- Note the wire routing hole as shown in 011.
+- Bundle all 12x wires from flange-side of Slip Ring, cover in heat-shrink.
+- Add short length of nylon wire-wrap to the wire closest to the flange to prevent damage from interaction with the gear.
+- Route wire bundle through 21-MotorMount hole and through entire part, leaving ~12mm wire distance between Slip Ring and top of 21-MotorMount.
