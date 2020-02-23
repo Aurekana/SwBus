@@ -29,6 +29,7 @@ Note: BOM inserts are recommendation, other inserts may be used here with other 
 - If all parts fit well, glue 16-MagFront to 05-Front and 04-Front, taking care not to glue ChargeHandle sub-assembly into position unless immobile charge handle desired.
 
 ## 005. Magazine Cover Installation
+Note: 27-MagCover is also available in the STL folder as 27a-MagCover and 27b-MagCover; this is the 27-MagCover part split into two parts for printers with a not tall enough Z-height. 27a and 27b can be printed separately and fastened together to subsitute for the single part 27. 
 - Test fit 27-MagCover into 16-MagFront and 17-MagBack to ensure fit, trim and sand as needed. Prototype required cutting away of a substantial quantity of the shown area of the 27-MagCover to fit under the flap of 17-MagBack.
 - Position 27-MagCover into slots on 16-MagFront.
 - Insert 3/8" aluminum rod into hole as shown in 005B so that 27-MagCover hinge tabs are secured to 16-MagFront. Ensure 27-MagCover can rotate freely open and closed.
@@ -48,3 +49,14 @@ Note: BOM inserts are recommendation, other inserts may be used here with other 
 - If a hole was drilled through the reinforcement tube during step 006, place a length of heatshrink or anti-abrasion wrap over the trigger button wires to protect them from sharp edges of the aluminum tube.
 - Route the trigger button wires through the path shown in the 007 cross section.
 - While routing the wires through, assemble the Grip sub-Assembly to the Overall Assembly. Use reinforcement tubes as needed; this handle will be subject to large stresses during carry of the prop.
+
+## 008. Back of Stock Installation
+Note: 19-StockBack is also available in the STL folder as 19a-StockBack and 19b-StockBack; this is the 19-StockBack part split into two parts for printers with a not tall enough Z-height. 19a and 19b can be printed separately and fastened together to subsitute for the single part 19.
+- Assemble 19-StockBack to the Overall Assembly. The prototype used a single aluminum tube through the lower reinforcement hole; two additional holes were designed in if needed.
+- Acquire two neodymium magnets ~12mm diameter by ~3mm tall.
+- Sand one face of each magnet to improve adhesion to the nickel plating.
+- Glue magnets into the slots in the 19-StockBack as shown in 008.
+
+## 009. Front Support Arm Installation
+- Cut two lengths of aluminum 1/2" tube to fit between 01-Front and 02-Front, to act as supports for the 2x Nylon Sleeve Bearings as shown in 009. Assemble the Sleeve Bearings on the aluminum tube, assembling 01-Front to 02-Front.
+- Assemble the 01-Front/02-Front assembly to the Overall Assembly.
