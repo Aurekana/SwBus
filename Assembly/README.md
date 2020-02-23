@@ -72,7 +72,7 @@ Note: Alternative slip ring can be used at your own risk.
 - Separate out, trim to length, and solder to the PCB 2x wires to the D_in/Signal connection point.
 - Add spacer pad of scrap foam between the Slip Ring flange and PCB to allow even contact despite components on the underside of the PCB. If gluing the PCB to the flange at this step, make sure holes are ligned up as best as possible for later screw mounting.
 
-## 011. Slip Ring Bearing
+## 011. Motor Mount Bearing
 Note: Different motor can be used, though 21-MotorMount screw attachment points may need to be altered.
 - Locate 21-MotorMount.
 - Locate Pololu Gearmotor. 
