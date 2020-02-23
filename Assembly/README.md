@@ -73,8 +73,8 @@ Note: Alternative slip ring can be used at your own risk.
 - Add spacer pad of scrap foam between the Slip Ring flange and PCB to allow even contact despite components on the underside of the PCB. If gluing the PCB to the flange at this step, make sure holes are ligned up as best as possible for later screw mounting.
 
 ## 011. Slip Ring Wire Routing
+Note: Different motor can be used, though 21-MotorMount screw attachment points may need to be altered.
 - Locate 21-MotorMount.
-- Note the wire routing hole as shown in 011.
-- Bundle all 12x wires from flange-side of Slip Ring, cover in heat-shrink.
-- Add short length of nylon wire-wrap to the wire closest to the flange to prevent damage from interaction with the gear.
-- Route wire bundle through 21-MotorMount hole and through entire part, leaving ~12mm wire distance between Slip Ring and top of 21-MotorMount.
+- Locate Pololu Gearmotor. 
+- Assemble 21-MotorMount to top of Pololu Gearmotor using 6x M3 x 6mm long flathead screws. 
+- Assemble Ball-Bearing to Motor Assembly.
