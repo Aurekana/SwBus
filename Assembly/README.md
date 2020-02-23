@@ -33,3 +33,18 @@ Note: BOM inserts are recommendation, other inserts may be used here with other 
 - Position 27-MagCover into slots on 16-MagFront.
 - Insert 3/8" aluminum rod into hole as shown in 005B so that 27-MagCover hinge tabs are secured to 16-MagFront. Ensure 27-MagCover can rotate freely open and closed.
 - Assemble 17-MagBack to assembly.
+
+## 006. Front of Stock Installation
+- Test fit 18-StockFront to assembly thus far to ensure fit.
+- Collect wires to be routed between 18-StockFront and Barrel-Assembly: 2x wires to carry power to the motor (12V, ~1A); 2x wires to carry power to LEDS (5V, ~8A); 1x wire to carry signal to LEDS (5V, <1A)
+- Note required routing of power and signal wires in 006B. If path is impossible or obstructed, use a cutting tool or hot knife to cut a slot through the noted path in 006B so that wires can pass and MagCover can still fully close.
+- Either route wires through path now, leaving at least 6" on either end outside of the wire path, OR route a cable such that the wire can be pulled along the cable through the wire path during final assembly. If a wire trough was created for routing the wire, skip this step.
+- Assemble 18-StockFront to the Overall Assembly.
+- Check the area boxed in 006C.
+- If a reinforcement tube is present in this location, use a drill or cutting tool to create a hole through the tube so that a wire can be routed in the path shown in 006C.
+
+## 007. Grip Installation
+- Retrieve Grip sub-Assembly from step 002. 
+- If a hole was drilled through the reinforcement tube during step 006, place a length of heatshrink or anti-abrasion wrap over the trigger button wires to protect them from sharp edges of the aluminum tube.
+- Route the trigger button wires through the path shown in the 007 cross section.
+- While routing the wires through, assemble the Grip sub-Assembly to the Overall Assembly. Use reinforcement tubes as needed; this handle will be subject to large stresses during carry of the prop.
