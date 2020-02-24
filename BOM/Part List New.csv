@@ -1,0 +1,37 @@
+Index,Type,Name,Description,Material,Purpose,Proto Source,Source P/N,Source Link,Alt Source,Qty,Notes
+1,Ball Bearing,Ball bearing,"Trade No. R20-2Z, for 1-1/4"" shaft diameter",Steel,Allow the barrel assembly to rotate on the cantilevered support shaft,McMaster-Carr,60355K821,,3D printed?,3,"Very expensive part, could probably be cost reduced using 3D printed bearing or sleeve bearing"
+2,Sleeve Bearing,Sleeve bearing,"Light duty sleeve bearing for 1/2"" shaft diameter, 5/8"" OD x 1/2"" long",Nylon,Provide low friction bearing surface for barrel assembly against front arm part below barrel,McMaster-Carr,6389K347,https://www.mcmaster.com/6389k347,,2,"Accidentally ended up glued in place on prototype, contribution to barrel friction reduction unknown"
+3,Threaded Insert,M3 insert,M3 brass,Brass,Allow screws to fasten parts without needing to 3D print threads,McMaster-Carr,,,,11,"Did not end up needing access door removal feature, 8 of these can likely be eliminated"
+4,Screw,M3 screw short,"M3 screw, short",Black Oxide Steel,,McMaster-Carr,,,,8,"Did not end up needing access door removal feature, can likely be eliminated"
+5,Screw,M3 screw long,"M3 screw, long",Black Oxide Steel,,McMaster-Carr,,,,3,
+6,Screw,M2 screw,,Black Oxide Steel,,Spares,,,McMaster-Carr,12,
+7,Screw,M3 flathead screw,,Stainless Steel,Secure motor to motor-mount,McMaster-Carr,,,,6,
+8,Nut,M2 nut,,Black Oxide Steel,,Spares,,,McMaster-Carr,12,Could be replaced with heat-set insert
+9,Magnet,Magnet,"1/2"" diameter x 3mm thick",Neodymium,Secure battery cover to stock,Home Depot,"Internet #202526367, Model # 07046HD, Store SKU #632137",https://www.homedepot.com/p/Master-Magnet-1-2-in-Neodymium-Rare-Earth-Magnet-Discs-6-per-Pack-07046HD/202526367 ,"Amazon, McMaster-Carr",4,
+10,Rod,Mag-cover hinge pin,"3/8"" diameter aluminum, 18” long",Aluminum,Hinge pin for Mag-Cover,McMaster-Carr,,,,1,
+11,Tube,Reinforcement,"1/2"" diameter aluminum, hollow core at least 1/4"" diameter",Aluminum,Frame reinforcement,Home Depot,,https://www.homedepot.com/p/Everbilt-36-in-x-1-2-in-x-1-16-in-Aluminum-Round-Tube-801247/204274002 ,McMaster-Carr,enough,
+12,Tube,Cantilever support bar,"20mm outer diameter, Y ID, X long",Aluminum,Support rotating barrel assembly,Scrap Bin,,,McMaster-Carr,1,
+13,Button,Trigger,"Push-button, Normally Open, Momentary action",Plastic,Trigger input,Microcenter,760520,https://www.microcenter.com/product/420422/push-button-switch-spst---red ,Various,1,
+14,Controller Board,"""Arduino""",Adafruit Trinket M0,Various,LED light control,Microcenter,716563,https://www.microcenter.com/product/503915/adafruit-industries-trinket-m0---for-use-with-circuitpython---arduino-ide ,Adafruit,1,
+15,Connector,JST connector,JST BM05B-SRSS-TB(LF)(SN) 5-pin SMD connector,Plastic,Connect barrel LED strips to distro board,Digikey,455-1791-1-ND ,https://www.digikey.com/products/en?keywords=455-1791-1-ND ,,10,
+16,Connector Wire,Wire harness,JST A05SR05SR30K305A 5-pin wire harness,Copper,Connect LED distro board to barrel LED strips,Digikey,455-3711-ND ,https://www.digikey.com/products/en?keywords=455-3711-ND ,,5,"5 wires needed due to double ended connectors, cut wires in half to get 10 wire harness assemblies"
+17,Resistor,Resistor,"0603 Resistor, 330 Ohm",Various,Prevent damage to signal pins,Spares,,,Digikey,10,
+18,Capacitor,Capacitor,"Electrolytic, Axial pins, 300 uF, 16V",Various,Smooth spikes in LED power on startup and current draw,Spares,,,Digikey,3,
+19,Slip-Ring,Slip Ring,"NTE Electronics 12 Wire Slip Ring With 44mm Flange, 22mm diameter",Plastic,Transfer LED power and signals through rotating joint,Microcenter,971655,https://www.microcenter.com/product/609894/nte-electronics-12-wire-slip-ring-with-flange ,"Adafruit, Amazon, eBay, etc",1,
+20,Motor,Motor,19:1 Metal Gearmotor 37Dx52L mm 12V (Helical Pinion),Steel,Barrel assembly rotation,Pololu,4741,https://www.pololu.com/product/4741,Cordless drill?,1,Need to balance torque with speed when finding a replacement
+21,Motor Controller,Motor Controller,High-Power Simple Motor Controller G2 18v15,Various,Motor speed control,Pololu,1363,https://www.pololu.com/product/1363,Cordless drill?,1,"Waaay over provisioned for usage, could be greatly simplified"
+22,LEDs,NeoPixels,Adafruit Mini Skinny NeoPixel Digital RGB LED Strip - 144 LED/m - 1m BLACK,Various,Provide Light and cool barrel heating effects,Adafruit,2970,https://www.adafruit.com/product/2970 ,"Aliexpress (search for ""ws2812b"")",2.5,
+23,Battery,LiPo Battery,11.1V 3S 5000mAh,Various,Provide power to electronics,HobbyKing,9067000276-0 ,https://hobbyking.com/en_us/turnigy-5000mah-3s-20c-lipo-pack-xt-90.html ,Cordless drill?,1,
+24,Wire,Power Wire,Rated for at least 40W,Copper,Transfer power,Spares,,,Digikey,lots,
+25,Wire,Signal Wire,Rated for at least 5W,Copper,Transfer logic signals,Spares,,,Digikey,lots,
+26,Fuse,Fuse,"¼” glass fuse, rated for 2.5A",Various,Prevent overcurrent causing a thermal event,Spares,,,Digikey,1,
+27,Fuse Holder,Fuse Holder,¼” glass fuse holder,Various,Hold fuse,Spares,,,Digikey,1,
+28,Voltage Regulator,VReg,"Pololu 5V, 9A Step-Down Voltage Regulator D24V90F5",,Regulate battery voltage down to 5V for LEDs and Arduino,Pololu,2866,https://www.pololu.com/product/2866,Amazon,1,"Possibly over provisioned for usage, did not check current draw while active"
+29,Potentiometer,Pot,SoftPot Membrane Potentiometer - 200mm,Plastic,Vary motor speed,Sparkfun,SEN-08679,https://www.sparkfun.com/products/8679,Amazon,0*,"Did not end up using potentiometer to set speed with charge handle due to issues, part added to BOM for reference"
+30,Plate,Steel Plate,"1/8"" thick low carbon steel",Steel,Material for charge handle support,Scrap Bin,,,McMaster-Carr,,
+31,Tube,Nylon Tube,"1/2"" OD, 3/8"" ID, 5 Feet Long",Nylon 6/6,Diffuse LED light in barrels,McMaster-Carr,8628K28,https://www.mcmaster.com/8628k28,,3,
+32,Foam,LED Foam,,Plastazote,Diffuse LED light in barrels,TNT Cosplay,,,,,"Prototype used strips of 8mm cut to 3mm wide, could use 2 or 3mm thick foam instead"
+33,Acrylic,Transparent Acrylic,"1/8"" thick clear cast acrylic",Acrylic,"Material for HUD ""glass""",Scrap Bin,,,McMaster-Carr,,
+34,Heatshrink,Heatshrink,Various diameters,Plastic,Protect and wrap wires into bundles,Spares,,,"Digikey, Amazon",enough,
+35,Sleeving,Nylon sleeving,Anti-abrasion nylon mesh sleeving,Nylon,Protect wires from abrasion,Spares,,,"Digikey, Amazon",enough,
+36,Adhesive,Epoxy,Gorilla 2-part Epoxy,Epoxy,,Home Depot,,,Amazon,enough,
