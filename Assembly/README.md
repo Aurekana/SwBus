@@ -125,3 +125,27 @@ Note: 11-Cylinder and 12-Cylinder are the same part but numbered differently to 
 - Assemble the 10-Ring3 and Ball Bearing assembly onto the Motor Assembly as shown in 020, and position 13-Spacer on the Cantilever Tube to support the Ball Bearing. Fit should be tight, add tape or glue if fit is loose, though avoid glue on the sides of the Ball Bearing. As shown in 020, the 13-Spacer should be flush with the side of the Ball Bearing.
 - Assemble 06-Ring4 onto the end of the stack of the Motor Assembly. The Prototype assembly used lengths of 1/2" nylon tubing inserted into the 1/2" tube slots on the cylinders to stabilize and hold together the assembly. 
 - This completes the Motor Assembly, which will now be referred to as the Barrel Assembly.
+
+## 021. Barrel Assembly to Body Assembly
+- Retrieve Body Assembly from Step 009.
+- Retrieve Barrel Assembly from Step 020.
+- Press-fit Cantilever Tube into front of Body Assembly as shown in 021. Leave at least a 0.5mm gap between the Barrel Assembly and Body Assembly.
+- Test rotate Barrel Assembly to make certain sufficient gap is present between the parts.
+- If press-fit is not tight enough, use glue (2-part epoxy used for prototype) to secure Cantilever Tube to Body Assembly. Make certain not to glue rotating parts of Barrel Assembly to Body Assembly or to Cantilever Tube. Test rotate following gluing to ensure function.
+- Route wires from Barrel Assembly as shown in 021, using wire guide from Step 006. If wires were routed in Step 006, make connections to Barrel Assembly wires now. 
+- Glue or secure wires so that 27-MagCover can close fully.
+
+## 022. Electronics sub-Assembly
+- Retrieve part "Mount" (does not have unique number, reference 022A for geometry).
+- Press-fit 11x M2 hex nuts into Mount as shown in 022A.
+- Assemble Adafruit Trinket M0, Pololu Voltage Regulator, and Pololu Motor Controller as shown in 022B. Use M2 x 8mm long screws to secure boards to Mount. Make certain that screws do not extend into undersides of boards on opposite side of Mount. 
+
+Wire together boards as shown in 022C.
+- Wire VReg GND to Trinket M0.
+- Wire VReg V_out (5V) to a SPST slide switch, then wire slide switch to Trinket M0 "USB" pin. This switch allows the Trinket M0 to be removed from the LED power circuit in event programming mistake results in attempting to light all the LEDs off of the USB programming cable power supply. This was an issue that came up accidentally during programming of the prototype. During normal operation switch should be in closed position.
+- Wire the Trigger Button wires to the Motor Controller Board; wire the center-most connection on the Motor Controller Board to Trinket M0 Pin #1 as shown in 022C.
+- Wire the Motor Wires to the center two pins of the Motor Control Board power section as shown in 022C.
+- Connect the Bat+ and Bat- wires to both the Pololu Voltage Regulator V_in/GND pins as well as to the Motor Controller V_in/GND pins as shown in 022C. Battery wire harness will be covered in the next step.
+- Wire Trinket M0 Pin #0 to the LED Signal/D_in wire.
+- Wire Pololu Voltage Regulator V_out (5V) pin to LED 5V wire.
+- Wire Pololu Voltage Regulator GND to LED GND wire.
