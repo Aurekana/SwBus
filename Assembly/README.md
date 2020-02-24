@@ -149,3 +149,53 @@ Wire together boards as shown in 022C.
 - Wire Trinket M0 Pin #0 to the LED Signal/D_in wire.
 - Wire Pololu Voltage Regulator V_out (5V) pin to LED 5V wire.
 - Wire Pololu Voltage Regulator GND to LED GND wire.
+
+## 023. Battery Wiring Harness
+Note: Guide specific to parts in BOM that were used in the prototype. 
+- Battery connects to system with XT-60 connector, obtain maie connector to plug into female battery connector.
+- Wire + side of connector to fuse holder, add a 2.5A glass fuse. Unconnected end of Fuse is now Bat+.
+- Wire - side of connector to wire same length as Fuse wire. Encinnected end of - wire is now Bat-.
+- Wire battery to ELectronics Assembly from 022 as shown in 023B.
+
+## 024. Potentiometer Door Installation
+Note: These doors are holdovers from the original plan to install a linear potentiometer on the Charge Handle to allow control of the motor speed based on the Charge Handle position. This was ultimately dropped from the prototype, so the wiring guides were not implemented. If a linear potentiometer is desired, one can be installed to the insides of these doors prior to assembly and wires routed to the Motor Control Board. The Motor Control Board page at https://www.pololu.com/product/1363/resources should be able to assist in using a potentiometer instead of a button. Also note that the Charge Handle needs the addition of some sort of nub to make contact with the potentiometer. YMMV.
+- Install 04-PotDoor and 15-PotDoor as shown in 024. Use 8x M3 x 6mm long screws to secure doors to Body Assembly.
+
+## 025. Barrel LED Assembly
+Note: Pictures for this section and those following TBD.
+- Cut ten (10) sections of Nylon 1/2" tubing to between 390mm and 400mm in length. Cut all tubes to same length.
+- Drill 1/4" hole in each tube about 25mm from one end.
+- Cut LED wire harness so that there is roughly 50-60mm of wire beyond the connector.
+- Thread the LED wire harness through the drilled hole so that the connector is on the outside of the tube and the wire ends protrude out the end of the tube. Pull tight so that connector is against the tube and is not allowing the wires to be pulled any further out of the tube.
+- Cut a length of NeoPixel strip 36 LEDs long.
+- Orient the strip so that the D_in side is in view, and pre-tin the three solder pads on the D_in side.
+- Solder the wire harness to the NeoPixel strip - reference the PCB board connection - such that the wires that will connect to the 5V on the PCB connect to the NeoPixel +5V; the wires that will connect to the GND on the PCB connect to the NeoPixel GND; and the wires that will connect to the Signal/D_in on the PCB connect to the NeoPixel D_in pin.
+- Correct wiring can be verified by plugging in the wire harness to the PCB and powering on the Electronics Assembly Board with the battery or Trinket M0 USB power supply. Use a test program for the Trinket M0 for all LED testing applications. Test program will be added to the repo TBD.
+- Cut a strip of LED Foam (Plastazote) approximately 3mm thick and as wide as the NeoPixel strip.
+- Use Hot Glue to glue the LED Foam to the NeoPixel strip, so that it sits right above the LEDs.
+- Starting with the free end of the NeoPixel strip, carefully insert the end of the NeoPixel strip into the Nylon Tube at the end closest to the drilled hole. Push the strip in flat and straight until it folds over the wire harness and push it all the way in until the wire harness end of the strip is flush with the front of the tube. The wire harness should tuck under the strip.
+- Pull the wire harness connector out of the drilled hole as much as possible, but not so much that it breaks.
+- Push the Nylon tube side without the drilled hole into the 1/2" tube slots in the Barrel Assembly. Push barrel in until it bottoms out against the back of the Barrel Assembly. A short length of the Nylon tube should be protruding out of the front of the Barrel Assembly.
+- Orient the Nylon Tube so that the drilled hole is facing the Slip Ring.
+- Plug the Wire harness connector into the PCB into the connector closest to the Nylon Tube.
+- Repeat for the other nine (9) Nylon Tubes.
+
+## 026. Barrel End Cap Installation
+- Sort the LED wire harness wires so that they stand near their Nylon Tube.
+- Note the slots in 32-B. These slots in the 1/2" tube slots should align with the wire harness wires.
+- Push 32-B onto the end of the barrel assembly, using a small spudger or flathead screwdriver to move wires as needed to fit into slots.
+- Once 32-B is seated against 32-A, Barrel Assembly is complete. 32B should be press-fit, but can be glued in place if no maintenance is expected to be needed for the LED wire harnesses.
+
+## 027. Battery Cover
+- Test fit 31-BatCover on the back of the Body Assembly, over where the battery will sit. 31-BatCover should sit over top of two magnets that were glued into the back of the stock.
+- Note that 31-BatCover does not have corresponding holes for its own magnets. This was due to a timing constraint and an error in the mesh that prevented holes from being placed. For the prototype a slot was cut in the 31-BatCover that was larger than the locations of the magnets, and the slot was filled with epoxy putty. Magnets were placed on top of the magnets in the stock, then the cover was pressed into place. The cover was then removed, and the depressions in the epoxy putty were let cure and the magnets glued into them. Be sure to orient the magnets properly before gluing.
+
+## 028. HUD/Sight Screen
+- Cut Acrylic hud.dxf and check fit in 33-hud.
+- Glue Acrylic hud into 33-hud.
+- Cut using diagonal cutters two 10mm sections of nail or stiff wire that fits into holes in 33-hud side. Make sure ends of nail/wire are sharp.
+- Insert less sharp ends of nail/wire into 33-hud holes, glue in place.
+- Press 33-hud with sharp nail/wire into the side of the Body Assembly where the 33-hud is to be installed.
+- Find a drill bit slightly smaller than the nail/wire in 33-hud.
+- Drill holes in the side of the Body Assembly using the marks made by the sharp nail/wire.
+- Insert 33-hud into the holes, and either adjust for a press-fit if removal is desired, or glue in place.
