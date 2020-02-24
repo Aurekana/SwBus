@@ -116,3 +116,12 @@ Note: This is the light blue part referenced in the note in the previous step.
 - Press fit a Ball Bearing into 14-Ring2. If fit is loose add tape to outside of bearing until fit is snug. If using glue, be sure not to allow glue onto sides of Ball Bearing. Following any use of glue, check to make sure Ball Bearing still spins freely.
 - Assemble 14-Ring2 and Ball Bearing assembly onto Motor Assembly, so that Ball Bearing is facing toward the free end of the Cantilever Tube. See 018. Ball Bearing should fit tightly onto 29-MotorSleeve; if fit is loose add tape around 29-MotorSleeve until fit is snug.
 
+## 019. Long Cylinder Installation
+Note: 11-Cylinder and 12-Cylinder are the same part but numbered differently to avoid confusion in needing 2x of one part. They can be printed as one single length if a printer with sufficient Z-height is available.
+- Assemble 11-Cylinder and 12-Cylinder to the Motor Assembly as shown in 019. For Prototype assembly 3x lengths of 1/2" nylon tubing were used spaced around the Motor Assembly in the 1/2" tube slots to stabilize the parts and hold them together instead of gluing the parts together. Once the barrels are all installed to the Barrel Assembly, no glue is needed to hold the inner parts together unless otherwise stated.
+
+## 020. Final Ball Bearing Installation
+- Assemble a Ball Bearing into 10-Ring3 as shown in 020.
+- Assemble the 10-Ring3 and Ball Bearing assembly onto the Motor Assembly as shown in 020, and position 13-Spacer on the Cantilever Tube to support the Ball Bearing. Fit should be tight, add tape or glue if fit is loose, though avoid glue on the sides of the Ball Bearing. As shown in 020, the 13-Spacer should be flush with the side of the Ball Bearing.
+- Assemble 06-Ring4 onto the end of the stack of the Motor Assembly. The Prototype assembly used lengths of 1/2" nylon tubing inserted into the 1/2" tube slots on the cylinders to stabilize and hold together the assembly. 
+- This completes the Motor Assembly, which will now be referred to as the Barrel Assembly.
