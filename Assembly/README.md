@@ -90,3 +90,16 @@ Note: Different motor can be used, though 21-MotorMount screw attachment points 
 - Assemble 3x M3 x 3.8mm long heat-set inserts into 32-A as shown in 013 using a heated soldering iron to press the inserts until they are flush with the surface of the part.
 - Press-fit 32-A onto the protrusions of 22-GearRing on the Motor Assembly. Glue should not be needed here even in the case of a loose fit.
 - Ensure 24-Ring1 rotates smoothly. If movement is not smooth, check for debris or print errors in the 20-Gear and 22-GearRing interface, file down or re-print if needed.
+
+## 014. Slip Ring Wire Routing
+Note: Ignore the light blue component in this image; this part will be referenced in the next step.
+- Route the wire bundle from the flange (free) end of the slip ring through the hole in 21-MotorMount as shown in 014. For ease of assembly, prior to routing the wire through the 21-MotorMount, add heatshrink around the entire bundle to keep the wires in place. Also add a short length of Nylon anti-abrasion wrap to the wire bundle closest to the slip ring to avoid damage to the wires due to proximity to the 20-Gear.
+- Leave enough free length of wire between the slip ring and 21-MotorMount to allow the slip ring assembly to sit on 32-A.
+- Fasten the slip ring assembly to 32-A using 3x M3 x 6mm long screws.
+
+## 015. Motor Sleeve Installation
+Note: This is the light blue part referenced in the note in the previous step.
+- Connect or solder wires to the copper tabs on the Pololu Motor. Wires should be sized for 12V, ~1A. Wires should be at least 24" long to aid routing.
+- Add heatshrink or isolation to Pololu Motor wires to avoid shorting to the motor case or to each other.
+- Route Motor wires and Slip Ring wires through center of 29-MotorSleeve as shown in 015, then slide 29-MotorSleeve onto Motor taking care to align slot in 29-MotorSleeve to location of wire bundle exit on 21-MotorMount. 29-MotorSleeve should fit very tightly to the Motor; if not then glue 29-MotorSleeve to the Motor, taking care not to allow glue into the Motor internals.
+- Pull wires taut through hole in free end of 29-MotorSleeve.
