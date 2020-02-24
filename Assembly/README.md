@@ -103,3 +103,16 @@ Note: This is the light blue part referenced in the note in the previous step.
 - Add heatshrink or isolation to Pololu Motor wires to avoid shorting to the motor case or to each other.
 - Route Motor wires and Slip Ring wires through center of 29-MotorSleeve as shown in 015, then slide 29-MotorSleeve onto Motor taking care to align slot in 29-MotorSleeve to location of wire bundle exit on 21-MotorMount. 29-MotorSleeve should fit very tightly to the Motor; if not then glue 29-MotorSleeve to the Motor, taking care not to allow glue into the Motor internals.
 - Pull wires taut through hole in free end of 29-MotorSleeve.
+
+## 016. Cantilever Tube Install
+- Acquire Cantilever Tube. Tube should be hollow with a 20mm OD, and be about 325mm in total length. Prototype used thick walled aluminum tube, steel tube could also be used so long as it is strong enough to hold the weight of the barrel assembly cantilevered out from the prop body.
+- Route the Slip Ring wires and Motor wires through the center of the Cantilever Tube out the end of the Tube. If the Slip Ring wires are not long enough: acquire 2x wires rated to 5V, 8A; and one wire rated to 5V, ~1A (should be long enough to extend out the end of the Cantilever Tube). Separate out the 5x wires that were connected to the +5V connector on the PCB and connect them to one of the 5V-8A wires. Separate out the 5x wires that were connected to the GND connector on the PCB and connect them to the other 5V-8A wire. Seperate out the 2x wires that were connected to the Signal/D_in connector on the PCB and connect them to the 5V-1A wire. Cover all wire connections with heatshrink to avoid shorting to each other or to the Cantilever Tube body.
+
+## 017. Cylinder Install
+- Acquire 23-Cylinder. Note that part has a flat end and a stepped, counterbored end. Reference 017.
+- Assemble 23-Cylinder to Motor Assembly such that the stepped, counterbored end is facing the Slip Ring. This stepped end should fit around the Ball Bearing that is fitted into 24-Ring1.
+
+## 018. Ball Bearing Installation
+- Press fit a Ball Bearing into 14-Ring2. If fit is loose add tape to outside of bearing until fit is snug. If using glue, be sure not to allow glue onto sides of Ball Bearing. Following any use of glue, check to make sure Ball Bearing still spins freely.
+- Assemble 14-Ring2 and Ball Bearing assembly onto Motor Assembly, so that Ball Bearing is facing toward the free end of the Cantilever Tube. See 018. Ball Bearing should fit tightly onto 29-MotorSleeve; if fit is loose add tape around 29-MotorSleeve until fit is snug.
+
